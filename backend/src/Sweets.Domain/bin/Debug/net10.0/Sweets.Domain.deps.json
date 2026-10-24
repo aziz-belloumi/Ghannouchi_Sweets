@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Sweets.Domain/1.0.0": {
+        "runtime": {
+          "Sweets.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sweets.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

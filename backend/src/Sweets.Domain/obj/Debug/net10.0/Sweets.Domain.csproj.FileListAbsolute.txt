@@ -1,0 +1,11 @@
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/bin/Debug/net10.0/Sweets.Domain.deps.json
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/bin/Debug/net10.0/Sweets.Domain.dll
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/bin/Debug/net10.0/Sweets.Domain.pdb
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/Sweets.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/Sweets.Domain.AssemblyInfoInputs.cache
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/Sweets.Domain.AssemblyInfo.cs
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/Sweets.Domain.csproj.CoreCompileInputs.cache
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/Sweets.Domain.dll
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/refint/Sweets.Domain.dll
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/Sweets.Domain.pdb
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Domain/obj/Debug/net10.0/ref/Sweets.Domain.dll
