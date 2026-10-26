@@ -13,3 +13,4 @@
 /home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Application/obj/Debug/net10.0/refint/Sweets.Application.dll
 /home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Application/obj/Debug/net10.0/Sweets.Application.pdb
 /home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Application/obj/Debug/net10.0/ref/Sweets.Application.dll
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Application/obj/Debug/net10.0/Sweets.Application.sourcelink.json

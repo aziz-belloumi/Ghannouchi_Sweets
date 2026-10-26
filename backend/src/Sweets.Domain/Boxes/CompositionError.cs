@@ -1,6 +1,6 @@
 namespace Sweets.Domain.Boxes;
 
-public enum CompostionError
+public enum CompositionError
 {
     None = 0,
     TooFewSweets,

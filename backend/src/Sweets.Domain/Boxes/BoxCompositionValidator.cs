@@ -5,7 +5,7 @@ namespace Sweets.Domain.Boxes;
 public static class BoxCompositionValidator
 {
     public const int MaxDistinctSweets = 3;
-    public static Result Validate(BoxCompostions composition)
+    public static Result Validate(BoxComposition composition)
     {
         var capacity = composition.Capacity;
         var items = composition.Items;
@@ -13,40 +13,40 @@ public static class BoxCompositionValidator
         // 1- Capacity must be positive
         if (capacity <= 0)
         {
-            return Result.Failure(CompostionError.InvalidCapacity.ToString(), "Box capacity must be greater than zero.");
+            return Result.Failure(CompositionError.InvalidCapacity.ToString(), "Box capacity must be greater than zero.");
         }
 
         // 2- Must have at least one sweet type
         if (items is null || items.Count == 0)
         {
-            return Result.Failure(CompostionError.TooFewSweets.ToString(), "Box must contain at least one sweet.");
+            return Result.Failure(CompositionError.TooFewSweets.ToString(), "Box must contain at least one sweet.");
         }
 
         // 3- Must not exceed maximum distinct sweets
         if (items.Count > MaxDistinctSweets)
         {
-            return Result.Failure(CompostionError.TooManySweets.ToString(), $"Box cannot contain more than {MaxDistinctSweets} distinct sweets.");
+            return Result.Failure(CompositionError.TooManySweets.ToString(), $"Box cannot contain more than {MaxDistinctSweets} distinct sweets.");
         }
 
         // 4- No duplicate sweet types in case the user wants different types
         var distinctIds = items.Select(i => i.SweetId).Distinct().Count();
         if (distinctIds != items.Count)
         {
-            return Result.Failure(CompostionError.DuplicateSweet.ToString(), "The same sweet cannot appear twice in a box.");
+            return Result.Failure(CompositionError.DuplicateSweet.ToString(), "The same sweet cannot appear twice in a box.");
         }
 
         // 5- Total quantity must match the box capacity
         var totalQuantity = items.Sum(i => i.Quantity);
         if (totalQuantity != capacity)
         {
-            return Result.Failure(CompostionError.QuantityMismatch.ToString(), $"Total pieces ({totalQuantity}) must equal box capacity ({capacity}).");
+            return Result.Failure(CompositionError.QuantityMismatch.ToString(), $"Total pieces ({totalQuantity}) must equal box capacity ({capacity}).");
         }
 
         // 6- The set of quantites must match an allowed pattern : 10/20 , 20/10 , 15/15 , 10/10/10
         var quantities = items.Select(i => i.Quantity).OrderBy(q => q).ToList();
         if (!IsAllowedPattern(capacity, quantities))
         {
-            return Result.Failure(CompostionError.UnevenSplit.ToString(), BuildPatternMessage(capacity));
+            return Result.Failure(CompositionError.UnevenSplit.ToString(), BuildPatternMessage(capacity));
         }
         return Result.Success();
     }

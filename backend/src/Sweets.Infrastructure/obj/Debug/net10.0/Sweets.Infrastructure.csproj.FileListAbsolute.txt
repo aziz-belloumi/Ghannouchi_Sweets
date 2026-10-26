@@ -15,3 +15,6 @@
 /home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Infrastructure/obj/Debug/net10.0/refint/Sweets.Infrastructure.dll
 /home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Infrastructure/obj/Debug/net10.0/Sweets.Infrastructure.pdb
 /home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Infrastructure/obj/Debug/net10.0/ref/Sweets.Infrastructure.dll
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Infrastructure/bin/Debug/net10.0/Sweets.Infrastructure.runtimeconfig.json
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Infrastructure/obj/Debug/net10.0/Sweets.Infrastructure.sourcelink.json
+/home/aziz/Desktop/Ghannouchi_Sweets/backend/src/Sweets.Infrastructure/obj/Debug/net10.0/Sweets.Infrastructure.genruntimeconfig.cache
