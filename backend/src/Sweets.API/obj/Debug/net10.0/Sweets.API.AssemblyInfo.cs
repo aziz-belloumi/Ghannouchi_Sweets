@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sweets.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e85871cf8b59709ef89274d4f72aa6f285ab6ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e5dd8cf4efeae52cb159d2f89383786ba2777a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sweets.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sweets.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
